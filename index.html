@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Satyakam Swami — Spatial Systems Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homestyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="shader-viewport"></div>
+    <div class="vfx-grid-matrix"></div>
+
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <nav class="navmain">
+        <a href="#home" class="navi home-link view-router" data-target="home-view">
+            Satyakam <span class="gray-glow">Swami</span>
+        </a>
+        
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="navlinks">
+            <a href="#home" class="navi view-router active-route" data-target="home-view">// BASE_CORE</a>
+            <a href="#portfolio" class="navi view-router" data-target="portfolio-view">// ARCH_SYSTEMS</a>
+            <a href="#contact" class="navi view-router" data-target="contact-view">// TERMINAL_COMMS</a>
+            <a href="https://www.upwork.com/freelancers/~01f47836eca5a8b3cd" target="_blank" class="navi upwork-badge magnetic-target">UPWORK ↗</a>
+        </div>
+    </nav>
+
+    <div id="scroll-container">
+
+        <div id="home-view" class="spatial-view view-active">
+            <section class="mainall">
+                <div class="section1-wrapper">
+                    <div class="telemetry-tag layer-stagger">[ CORE_SYS_INITIALIZATION v5.0_PROD ]</div>
+                    <div class="reveal-mask">
+                        <h1 class="herotext split-text">Designing invisible systems for the modern web.</h1>
+                    </div>
+                    <p class="textn layer-stagger">
+                        <span>FastAPI</span> • <span>PostgreSQL</span> • <span>REST APIs</span> • <span>Distributed Edge Architecture</span>
+                    </p>
+                    <div class="scroll-indicator">
+                        <div class="mouse-wheel"></div>
+                        <span>INTERACTIVE MATRIX VIEWPORT</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mainsecond">
+                <div class="section2-wrapper">
+                    <div class="text-side reveal-trigger">
+                        <span class="meta-label">// TELEMETRY_MATRIX</span>
+                        <h2 class="text2">High Throughput.<br>Zero Latency.</h2>
+                        <p class="text-description">
+                            Building deterministic backends for asynchronous workloads. Crucial node load balancers operating under extreme parallel configurations.
+                        </p>
+                    </div>
+                    <div class="interactive-card-frame dynamic-magnetic shader-mod-trigger" data-shader-mode="torus" id="magnetic-card">
+                        <div class="card-glow"></div>
+                        <div class="box1">
+                            <div class="card-internal-content">
+                                <span class="terminal-dot"></span>
+                                <h3>Scripl AI ENGINE</h3>
+                                <p class="terminal-code">GPU_STREAM_STATE: RUNNING_RAYMARCH_MATRIX</p>
+                                <div class="matrix-grid-display">
+                                    <div class="grid-line-metric"><span>NODE_LOAD_FACTOR</span><span>12.4%</span></div>
+                                    <div class="grid-line-metric"><span>POOL_LATENCY_INDEX</span><span>0.002ms</span></div>
+                                </div>
+                                <div class="mini-bar-graph">
+                                    <span style="--h: 30%"></span><span style="--h: 85%"></span><span style="--h: 45%"></span><span style="--h: 100%"></span><span style="--h: 25%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="portfolio-view" class="spatial-view">
+            <section class="portfolio-monolith">
+                <div class="portfolio-header">
+                    <span class="meta-label">// PRODUCTION_DEPLOYMENTS</span>
+                    <h2 class="section-title-premium">Engineered Cluster Nodes</h2>
+                </div>
+                
+                <div class="portfolio-grid-matrix">
+                    <div class="portfolio-node-card dynamic-magnetic shader-mod-trigger" data-shader-mode="hyper" data-project="scripl">
+                        <div class="node-index">01 //</div>
+                        <div class="node-meta">FASTAPI • ASYNCIO • POSTGRESQL</div>
+                        <h3 class="node-title">Scripl AI Core Architecture</h3>
+                        <p class="node-desc">Multi-user asynchronous microservice handling generation tasks via concurrent connection pools and strict WebSockets architectures.</p>
+                        <div class="node-metric-strip">
+                            <span>API Latency: 4ms</span>
+                            <span>Throughput: 12k req/sec</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-node-card dynamic-magnetic shader-mod-trigger" data-shader-mode="liquid" data-project="distributed">
+                        <div class="node-index">02 //</div>
+                        <div class="node-meta">PYTHON • REDIS • DOCKER</div>
+                        <h3 class="node-title">Distributed Task Pipeline</h3>
+                        <p class="node-desc">Custom decoupled message-broker engine prioritizing and executing deep compute graph operations across dynamic clusters without transactional loss.</p>
+                        <div class="node-metric-strip">
+                            <span>Queue Capacity: 1.4M /m</span>
+                            <span>Fail Rate: < 0.0001%</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-node-card dynamic-magnetic shader-mod-trigger" data-shader-mode="matrix" data-project="quantum">
+                        <div class="node-index">03 //</div>
+                        <div class="node-meta">POSTGRESQL • WAL • DATA TUNING</div>
+                        <h3 class="node-title">High-Scale Relational Sharding</h3>
+                        <p class="node-desc">Database structure designed for transactional scaling. Implemented internal connection partitioning and targeted indexing schema for real-time reads.</p>
+                        <div class="node-metric-strip">
+                            <span>Query Exec: 0.12ms</span>
+                            <span>Data Index: 4.2 TB</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="contact-view" class="spatial-view">
+            <section class="contact-monolith">
+                <div class="contact-container">
+                    <div class="contact-telemetry">
+                        <span class="meta-label">// ENCRYPTED_COMMS_LINK</span>
+                        <h2 class="section-title-premium">Initialize Stream Connection</h2>
+                        <p class="contact-subtext">Direct terminal line pipeline to Satyakam Swami. Enter routing fields below to pass parameters into the secure communications layer.</p>
+                        
+                        <div class="system-status-terminal">
+                            <div class="terminal-header-line"><span>COMMS_PORT: ACTIVE</span><span>SSL_SECURE</span></div>
+                            <div class="terminal-log-stream">> Awaiting secure client initialization sequence...</div>
+                        </div>
+                    </div>
+
+                    <form class="secure-input-matrix" onsubmit="event.preventDefault();">
+                        <div class="form-input-wrapper">
+                            <label class="input-lbl">CLIENT_IDENTIFIER // Name</label>
+                            <input type="text" placeholder="e.g., Enterprise Architecture Corp" required class="matrix-input">
+                        </div>
+                        <div class="form-input-wrapper">
+                            <label class="input-lbl">ROUTING_ENDPOINT // Email</label>
+                            <input type="email" placeholder="e.g., architect@system.io" required class="matrix-input">
+                        </div>
+                        <div class="form-input-wrapper">
+                            <label class="input-lbl">TRANSMISSION_PAYLOAD // Project Scope</label>
+                            <textarea placeholder="State system constraints, scale targets, and architecture vectors..." required class="matrix-input matrix-textarea"></textarea>
+                        </div>
+                        <button type="submit" class="matrix-submit-btn magnetic-target">EXECUTE_DISPATCH.EXE</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footbar">
+            <div class="footer-content">
+                <p>© 2026 SATYAKAM SWAMI. CORE COMPILED AT GPU BASELINE SPECS. ALL RIGHTS RESERVED.</p>
+                <a href="#home" class="back-to-top view-router" data-target="home-view">SYSTEM_RESET ↑</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
