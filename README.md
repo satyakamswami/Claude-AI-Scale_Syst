@@ -10,10 +10,9 @@ Designed as a next-generation developer portfolio experience.
 
 # 🌐 Live Preview
 
-[https://satyakamswami.github.io/Claude-AI-Scale_Syst/](https://satyakamswami.github.io/Claude-AI-Scale_Syst/)
-
----
-
+```txt
+https://satyakamswami.github.io/Claude-AI-Scale_Syst/
+```
 # ⚡ Core Features
 
 ## 🧠 Spatial Interface Architecture
