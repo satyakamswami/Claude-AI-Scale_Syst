@@ -1,4 +1,4 @@
-````md
+````markdown
 # Satyakam Spatial Systems
 
 A cinematic experimental frontend architecture built using HTML, CSS, JavaScript, and Three.js.
@@ -72,45 +72,41 @@ https://satyakamswami.github.io/Claude-AI-Scale_Syst/
 ├── homestyle.css
 ├── app.js
 ├── README.md
-````
+```
 
 ---
 
 # 🧩 System Architecture
 
 ## Frontend Engine
-
-* Virtual smooth scroll chassis
-* Dynamic view router
-* Spatial transition system
-* Intersection observer animations
+- Virtual smooth scroll chassis
+- Dynamic view router
+- Spatial transition system
+- Intersection observer animations
 
 ## Rendering Engine
-
-* GPU raymarch rendering
-* Real-time shader uniforms
-* Mouse-reactive transformations
-* Dynamic shader morph states
+- GPU raymarch rendering
+- Real-time shader uniforms
+- Mouse-reactive transformations
+- Dynamic shader morph states
 
 ## Interaction Engine
-
-* Kinetic cursor apparatus
-* Magnetic field hover systems
-* Perspective transform engine
-* Motion interpolation layers
+- Kinetic cursor apparatus
+- Magnetic field hover systems
+- Perspective transform engine
+- Motion interpolation layers
 
 ---
 
 # 🎨 Design Philosophy
 
 This project focuses on:
-
-* Spatial web experiences
-* Cinematic interaction design
-* GPU-inspired interfaces
-* Experimental frontend systems
-* Immersive digital environments
-* High-end motion architecture
+- Spatial web experiences
+- Cinematic interaction design
+- GPU-inspired interfaces
+- Experimental frontend systems
+- Immersive digital environments
+- High-end motion architecture
 
 ---
 
@@ -131,18 +127,15 @@ https://satyakamswami.github.io/Claude-AI-Scale_Syst/
 Backend Developer • Spatial UI Designer • Systems Builder
 
 Focused on:
-
-* FastAPI
-* Distributed Systems
-* API Architecture
-* Experimental Frontend Systems
-* Cinematic Web Interfaces
+- FastAPI
+- Distributed Systems
+- API Architecture
+- Experimental Frontend Systems
+- Cinematic Web Interfaces
 
 ---
 
 # 📜 License
 
 Open source and available under the MIT License.
-
-```
-```
+````
